@@ -1,8 +1,4 @@
 let activeImage = 0;
-
-const reader = new FileReader();
-console.log(reader);
-
 const form = document.querySelector("form");
 const imagesCount = document.querySelectorAll("img").length - 1;
 
