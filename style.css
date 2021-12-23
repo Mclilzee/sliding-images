@@ -1,0 +1,48 @@
+.images {
+  display: flex;
+}
+
+img {
+  width: 0;
+  height: 940px;
+  transition: ease-in width 1s;
+}
+
+.visible {
+  height: 940px;
+  width: 100%;
+}
+
+#swapRight {
+  left: 97%;
+}
+
+button {
+  z-index: 2;
+  position: absolute;
+  border-radius: 100%;
+  top: 48%;
+  border: none;
+  color: rgba(114, 110, 55, 0.877);
+  font-size: 60px;
+  background-color: rgba(200, 217, 231, 0);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgba(245, 245, 245, 0.192);
+  color: white;
+}
+
+form {
+  z-index: 2;
+  position: absolute;
+  top: 94%;
+  left: 50%;
+  cursor: no-drop;
+}
+
+input {
+  cursor: pointer;
+}
